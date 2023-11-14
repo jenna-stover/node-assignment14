@@ -186,7 +186,7 @@ a {
     position: absolute;
     top: 35%;
     left: -100px; 
-    animation: animate 10s linear infinite;
+    animation: animate 12s linear infinite;
 }
 
 @keyframes animate{
