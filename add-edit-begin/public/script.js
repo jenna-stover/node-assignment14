@@ -1,6 +1,6 @@
 const getBreeds = async () => {
     try {
-        return (await fetch("api/breeds/")).json();
+        return (await fetch("/api/breeds")).json();
     } catch(error) {
         console.log(error);
     };
